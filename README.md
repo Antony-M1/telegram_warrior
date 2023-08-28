@@ -29,4 +29,4 @@ Here we consider the `telegram_warrior` = `app`
 
 
 # Documentation
-* [TDLib](https://core.telegram.org/tdlib)
+* [TDLib](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/TDLib.md)
