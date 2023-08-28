@@ -25,3 +25,7 @@ Overall, BotFather streamlines the process of creating and managing Telegram bot
 ### Step 1:
 Search in the telegram like this `BotFather` you will get this
 ![image](https://github.com/Antony-M1/telegram_warrior/assets/96291963/af366bd9-a86d-437b-9fa4-c6e40107e93a)
+
+Click `Start`, And you will type the commands that you want
+![image](https://github.com/Antony-M1/telegram_warrior/assets/96291963/0e911ca5-ba77-4ecf-a112-d0e772bc655a)
+
