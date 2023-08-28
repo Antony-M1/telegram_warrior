@@ -4,7 +4,7 @@
 
 # Prerequisites
 * Python3.10+
-* MySQL
+* MySQL 8+
 
 # Project Folder Structure
 * (FastAPI)[https://stackoverflow.com/questions/64943693/what-are-the-best-practices-for-structuring-a-fastapi-project]
@@ -23,3 +23,7 @@ Here we consider the `telegram_warrior` = `app`
 │   └── internal
 │       ├── __init__.py
 │       └── admin.py
+
+
+# Documentation
+* [TDLib](https://core.telegram.org/tdlib)
