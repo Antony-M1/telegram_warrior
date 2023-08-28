@@ -57,6 +57,11 @@ your_project
 
 # Telegram Documentation
 * [TDLib](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/TDLib.md)
+* [BotFather]()
+
+**YouTube**
+
+* [How To Create A Telegram Bot Using Python? | Telegram Bot In Python Tutorial | Python | Simplilearn](https://www.youtube.com/watch?v=227uk4kDTM8)
 
 # Project Setup
 * [Local Setup](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/local_setup.md)
