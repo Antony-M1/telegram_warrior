@@ -3,7 +3,7 @@
 "Telegram Warrior" is a dynamic project designed to efficiently manage Telegram webhooks using the FastAPI framework. By seamlessly integrating FastAPI with Telegram's webhook capabilities, this project enables real-time notifications and messaging to Telegram groups. With a streamlined interface, users can effortlessly set up and manage webhooks while harnessing the power of FastAPI's asynchronous capabilities for optimal performance.
 
 # Prerequisites
-* Python3.10+
+* [Python3.10+](https://www.python.org/downloads/release/python-3100/)
 * [MySQL 8+](https://github.com/Antony-M1/mysql_docker)
 
 # Project Folder Structure
