@@ -55,5 +55,8 @@ your_project
     └── __init__.py 
 ```
 
-# Documentation
+# Telegram Documentation
 * [TDLib](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/TDLib.md)
+
+# Project Setup
+* [Local Setup]()
