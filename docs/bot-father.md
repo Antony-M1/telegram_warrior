@@ -19,3 +19,9 @@ Here are the main uses of BotFather:
 7. **Getting Help:** BotFather provides helpful information and instructions for managing your bot. You can chat with BotFather and use commands like `/help` to get assistance.
 
 Overall, BotFather streamlines the process of creating and managing Telegram bots. It's an essential tool for anyone looking to develop bots that interact with users on the Telegram platform.
+
+# Quick Start
+
+### Step 1:
+Search in the telegram like this `BotFather` you will get this
+![image](https://github.com/Antony-M1/telegram_warrior/assets/96291963/af366bd9-a86d-437b-9fa4-c6e40107e93a)
