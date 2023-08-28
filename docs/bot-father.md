@@ -72,3 +72,4 @@ Games
 /deletegame - delete an existing game
 ```
 
+That's it you can use above commands to `create` and `customize` your Bot for more details I attached one video link in the tob and check it out.
