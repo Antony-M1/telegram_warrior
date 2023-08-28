@@ -59,4 +59,4 @@ your_project
 * [TDLib](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/TDLib.md)
 
 # Project Setup
-* [Local Setup]()
+* [Local Setup](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/local_setup.md)
