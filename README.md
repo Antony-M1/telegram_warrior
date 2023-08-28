@@ -4,7 +4,7 @@
 
 # Prerequisites
 * Python3.10+
-* MySQL 8+
+* [MySQL 8+](https://github.com/Antony-M1/mysql_docker)
 
 # Project Folder Structure
 * [FastAPI](https://stackoverflow.com/questions/64943693/what-are-the-best-practices-for-structuring-a-fastapi-project)
@@ -27,6 +27,33 @@ Here we consider the `telegram_warrior` = `app`
 │       └── admin.py
 ```
 
+`or`
+
+[Structure](https://stackoverflow.com/questions/64943693/what-are-the-best-practices-for-structuring-a-fastapi-project)
+```
+your_project
+├── __init__.py
+├── main.py
+├── core
+│   ├── models
+│   │   ├── database.py
+│   │   └── __init__.py
+│   ├── schemas
+│   │   ├── __init__.py
+│   │   └── schema.py
+│   └── settings.py
+├── tests
+│   ├── __init__.py
+│   └── v1
+│       ├── __init__.py
+│       └── test_v1.py
+└── v1
+    ├── api.py
+    ├── endpoints
+    │   ├── endpoint.py
+    │   └── __init__.py
+    └── __init__.py 
+```
 
 # Documentation
 * [TDLib](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/TDLib.md)
