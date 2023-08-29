@@ -62,6 +62,7 @@ your_project
 **YouTube**
 
 * [How To Create A Telegram Bot Using Python? | Telegram Bot In Python Tutorial | Python | Simplilearn](https://www.youtube.com/watch?v=227uk4kDTM8)
+* [How To Create A Telegram Bot In Python For Beginners (2023 Tutorial)](https://www.youtube.com/watch?v=vZtm1wuA2yc)
 
 # Project Setup
 * [Local Setup](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/local_setup.md)
