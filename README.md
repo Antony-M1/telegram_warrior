@@ -66,3 +66,8 @@ your_project
 
 # Project Setup
 * [Local Setup](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/local_setup.md)
+
+# Package List
+* [FastAPI](https://fastapi.tiangolo.com/)
+* [python-telegram-bot](https://pypi.org/project/python-telegram-bot/)
+    * [Documentation]()

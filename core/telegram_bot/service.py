@@ -1,12 +1,12 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from typing import Final
-from core.settings import TELEGRAM_BOT_USERNAME, TELEGRAM_BOT_TOKEN
+from core.settings import TELEGRAM_BOT_USERNAME, TELEGRAM_BOT_TOKEN, TELEGRAM_POLLING_SECONDS
 
 
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('Hello Thangs for chating')
+    await update.message.reply_text('Hello Thanks for chating')
 
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -58,14 +58,14 @@ async def error(update:Update, context:ContextTypes.DEFAULT_TYPE):
     print(f'Update {update} caused error {context.error}')
     
 
-async def start_telegram_bot():
+def start_telegram_service():
     print('Starting Bot....................')
     telegram_app = Application.builder().token(TELEGRAM_BOT_TOKEN).build()
     
     # commands
     telegram_app.add_handler(CommandHandler('start', start_command))
     telegram_app.add_handler(CommandHandler('help', help_command))
-    telegram_app.add_handler(CommandHandler('start', custom_command))
+    telegram_app.add_handler(CommandHandler('custom', custom_command))
     
     
     # Messages
@@ -76,4 +76,4 @@ async def start_telegram_bot():
     
     # Check Every 3 Seconds for new messages
     print('Polling ...................')
-    telegram_app.run_polling(poll_interval=3)
+    telegram_app.run_polling(poll_interval=TELEGRAM_POLLING_SECONDS)
