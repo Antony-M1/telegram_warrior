@@ -63,7 +63,7 @@ your_project
 ### Send Message in Channel
 * [sendDocument](https://core.telegram.org/bots/api#sendmessage)
 * [send_message](https://docs.python-telegram-bot.org/en/stable/telegram.bot.html#telegram.Bot.send_message)
-* [Sample Code]()
+* [🔥 Sample Code 🔥](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/send-message-in-channel)
 
 **YouTube**
 
