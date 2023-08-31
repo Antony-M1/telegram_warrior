@@ -1,14 +1,16 @@
 # telegram_warrior
 
-"Telegram Warrior" is a dynamic project designed to efficiently manage Telegram webhooks using the FastAPI framework. By seamlessly integrating FastAPI with Telegram's webhook capabilities, this project enables real-time notifications and messaging to Telegram groups. With a streamlined interface, users can effortlessly set up and manage webhooks while harnessing the power of FastAPI's asynchronous capabilities for optimal performance.
+"Telegram Warrior" is a dynamic project designed to efficiently manage Telegram webhooks using the `flask` framework. By seamlessly integrating `flask` with Telegram's webhook capabilities, this project enables real-time notifications and messaging to Telegram groups. With a streamlined interface, users can effortlessly set up and manage webhooks while harnessing the power of `flask` asynchronous capabilities for optimal performance.
 
 # Prerequisites
 * [Python3.10+](https://www.python.org/downloads/release/python-3100/)
 * [MySQL 8+](https://github.com/Antony-M1/mysql_docker)
 
 # Project Folder Structure
-* [FastAPI](https://stackoverflow.com/questions/64943693/what-are-the-best-practices-for-structuring-a-fastapi-project)
+* [FastAPI - Structure](https://stackoverflow.com/questions/64943693/what-are-the-best-practices-for-structuring-a-fastapi-project)
 * [FastAPI Official](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
+* [Folder structure for a Flask app](https://python-adv-web-apps.readthedocs.io/en/latest/flask3.html#folder-structure-for-a-flask-app)
+
 
 Here we consider the `telegram_warrior` = `app` 
 
@@ -58,7 +60,7 @@ your_project
 # Telegram Documentation
 * [TDLib](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/TDLib.md)
 * [BotFather](https://github.com/Antony-M1/telegram_warrior/blob/main/docs/bot-father.md)
-* [customwebhookbot.py](https://docs.python-telegram-bot.org/en/latest/examples.customwebhookbot.html)
+* [customwebhookbot.py -> (Starlette, flask, quart, django)](https://docs.python-telegram-bot.org/en/latest/examples.customwebhookbot.html)
 
 ### Send Message in Channel
 * [sendDocument](https://core.telegram.org/bots/api#sendmessage)
